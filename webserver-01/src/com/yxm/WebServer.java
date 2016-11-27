@@ -19,7 +19,7 @@ public class WebServer {
 	}
 
 	public static void main(String[] args) {
-		/**main方法用于生成當前服務實例并執行start方法
+		/**main方法用于生成当前实例并执行start方法
 		 * 默认是80端口号，如果是通过参数传进来的就是传进来的端口号
 		 */
 		// 通过命令行获取新的端口号
