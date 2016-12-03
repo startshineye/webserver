@@ -1,0 +1,5 @@
+package com.yxm.javaserver.util;
+
+public class Logger {
+
+}

@@ -1,0 +1,12 @@
+package com.yxm.javaserver.util;
+/**
+ * 日志记录器
+ * @author yxm
+ * @version
+ * @since
+ */
+public class Logger {
+   /**
+    * 工具类中的方法一般都是静态的，不需要创建对象，直接使用类调用
+    */
+}

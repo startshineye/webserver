@@ -94,7 +94,6 @@ public class Processor extends Thread {
 
 	/**
 	 * 正常请求时的输出
-	 * 
 	 * @param fileName
 	 */
 	public void sendFile(String fileName) {
@@ -122,5 +121,4 @@ public class Processor extends Thread {
 			e.printStackTrace();
 		}
 	}
-
 }

@@ -6,4 +6,5 @@ webserver-01
   修改private final static String WEB_ROOT = "F:\\MVC\\webserver-01\\src\\source";// 规定只能访问指定目录下文件
  中的路径为你存放资源的路径：
  2. 访问http://localhost/index.html即可
+ 3.访问：http://127.0.0.1:9090/socket/login?username=yxm&password=123
   

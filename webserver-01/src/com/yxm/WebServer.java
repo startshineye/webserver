@@ -17,7 +17,6 @@ public class WebServer {
 		}// 服务器端监听80端口
 
 	}
-
 	public static void main(String[] args) {
 		/**main方法用于生成当前实例并执行start方法
 		 * 默认是80端口号，如果是通过参数传进来的就是传进来的端口号
