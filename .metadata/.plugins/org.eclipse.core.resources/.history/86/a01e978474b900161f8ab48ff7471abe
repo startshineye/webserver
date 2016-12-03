@@ -1,0 +1,8 @@
+package snippet;
+
+public class Snippet {
+	public static void main(String[] args) {
+		端口号代表了计算机上的某个服务，端口最好是可配置的，就是说将端口号编写到一个配置文件当中，通过修改配置文件做到端口号的可配置，那我们这里就选择功能强大的配置文件xml，端口号需要在服务器启动阶段确定，那这个配置起一个什么样的名字呢？就叫做server.xml吧，在工程根目录下新建conf文件夹，将其放到conf目录下，便于以后的管理，一般来说xml文件应该有对应的dtd或schema等约束文件，我们这里就不再使用这些约束文件了，直接创建server.xml，编写server.xml文件如下所示
+	}
+}
+

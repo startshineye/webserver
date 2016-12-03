@@ -1,0 +1,5 @@
+1480782931580	Extract local variable 'reader'
+1480782995571	Extract local variable 'document'
+1480783159556	Extract local variable 'connectorElt'
+1480783250221	Extract local variable 'portAttr'
+1480783586573	Rename resource 'config'
