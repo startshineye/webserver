@@ -1,0 +1,16 @@
+package com.yxm.junit;
+
+import org.junit.Test;
+
+public class MathTest {
+   @Test
+   public void testSum(){
+	   int actual = Math.sum(10, 20);//实际值
+	   int expected = 30;//期望值
+	   assertEquals(expected,actual);
+   }
+   @Test
+   public void testDivide(){
+	   
+   }
+}

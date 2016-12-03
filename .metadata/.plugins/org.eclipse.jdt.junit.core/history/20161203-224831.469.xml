@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="MathTest.testSum" project="junit-001" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="testSum" classname="com.yxm.junit.MathTest" time="0.001"/>
+</testrun>

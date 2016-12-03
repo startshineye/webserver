@@ -1,0 +1,14 @@
+package com.yxm.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SystemServiceTest {
+
+	@Test
+	public void testLogin() {
+		fail("Not yet implemented");
+	}
+
+}

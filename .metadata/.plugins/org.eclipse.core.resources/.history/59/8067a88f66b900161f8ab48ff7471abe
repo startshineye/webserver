@@ -1,0 +1,14 @@
+package com.yxm.junit;
+
+import org.junit.Test;
+
+public class MathTest {
+   @Test
+   public void testSum(){
+	   
+   }
+   @Test
+   public void testDivide(){
+	   
+   }
+}

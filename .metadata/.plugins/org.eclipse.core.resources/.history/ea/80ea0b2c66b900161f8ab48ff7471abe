@@ -1,0 +1,10 @@
+package com.yxm.junit;
+
+public class MathTest {
+   public void testSum(){
+	   
+   }
+   public void testDivide(){
+	   
+   }
+}

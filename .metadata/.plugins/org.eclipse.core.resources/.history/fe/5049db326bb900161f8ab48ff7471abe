@@ -1,0 +1,22 @@
+package com.yxm.junit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class SystemServiceTest {
+
+	@Test
+	public void testLogin() {
+		SystemService systemService = new SystemService();
+		boolean actual = systemService.login("admin", "123");////实际值
+		boolean expected = true;//期望值
+		assertEquals(expected, actual);
+		
+		 
+		boolean actual1 = systemService.login("admin", "456");////实际值
+		boolean expected1 = true;//期望值
+		assertEquals(expected1, actual1);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;systemService&apos; from expression &apos;new SystemService()&apos;&#x0D;&#x0A;- Original project: &apos;junit-002&apos;&#x0D;&#x0A;- Variable name: &apos;systemService&apos;&#x0D;&#x0A;- Destination method: &apos;com.yxm.junit.SystemServiceTest.testLogin()&apos;&#x0D;&#x0A;- Variable expression: &apos;new SystemService()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;systemService&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/test&lt;com.yxm.junit{SystemServiceTest.java" name="systemService" replace="true" selection="183 0" stamp="1480777736354" version="1.0"/>
+</session>
