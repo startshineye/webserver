@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
-<window height="728" maximized="true" width="1024" x="180" y="0">
+<window height="696" width="1024" x="195" y="8">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="159" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="262" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
@@ -23,10 +23,11 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -41,48 +42,31 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Server.java" partName="Server.java" path="F:/MVC/webserver/socket/src/com/yxm/socket/Server.java" title="Server.java" tooltip="socket/src/com/yxm/socket/Server.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/socket/src/com/yxm/socket/Server.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="912" selectionTopPixel="551"/>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="server.xml" partName="server.xml" path="F:/MVC/webserver/javaServer-04/conf/server.xml" title="server.xml" tooltip="javaServer-04/conf/server.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaServer-04/conf/server.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" partName="Client.java" path="F:/MVC/webserver/socket/src/com/yxm/socket/Client.java" title="Client.java" tooltip="socket/src/com/yxm/socket/Client.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/socket/src/com/yxm/socket/Client.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="330" selectionTopPixel="108"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServerParse.java" partName="ServerParse.java" path="F:/MVC/webserver/javaServer-04/src/com/yxm/javaserver/core/ServerParse.java" title="ServerParse.java" tooltip="javaServer-04/src/com/yxm/javaserver/core/ServerParse.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaServer-04/src/com/yxm/javaserver/core/ServerParse.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="724" selectionTopPixel="268"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebServer.java" partName="WebServer.java" path="F:/MVC/webserver/webserver-01/src/com/yxm/WebServer.java" title="WebServer.java" tooltip="webserver-01/src/com/yxm/WebServer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/webserver-01/src/com/yxm/WebServer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="447" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="readme.txt" partName="readme.txt" path="F:/MVC/webserver/socket/readme.txt" title="readme.txt" tooltip="socket/readme.txt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/socket/readme.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="60" selectionOffset="199" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="readme.txt" partName="readme.txt" path="F:/MVC/webserver/webserver-01/src/readme.txt" title="readme.txt" tooltip="webserver-01/src/readme.txt" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/webserver-01/src/readme.txt"/>
-<editorState selectionHorizontalPixel="0" selectionLength="60" selectionOffset="251" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Processor.java" partName="Processor.java" path="F:/MVC/webserver/webserver-01/src/com/yxm/Processor.java" title="Processor.java" tooltip="webserver-01/src/com/yxm/Processor.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/webserver-01/src/com/yxm/Processor.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2880" selectionTopPixel="1646"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BootStrap.java" partName="BootStrap.java" path="F:/MVC/webserver/javaServer-04/src/com/yxm/javaserver/core/BootStrap.java" title="BootStrap.java" tooltip="javaServer-04/src/com/yxm/javaserver/core/BootStrap.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javaServer-04/src/com/yxm/javaserver/core/BootStrap.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="472" selectionTopPixel="390"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.debug.ui.ExpressionView" partName="Expressions">
 <viewState/>
 </view>
-<view id="com.genuitec.javascript.debug.ui.scriptView" partName="JavaScript Scripts Inspector"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers"/>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
 <viewState/>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<view id="com.genuitec.javascript.debug.ui.scriptView" partName="JavaScript Scripts Inspector"/>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
@@ -115,6 +99,9 @@
 </customFilters>
 </viewState>
 </view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
@@ -127,7 +114,7 @@
 </view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions"/>
@@ -220,19 +207,9 @@
 <perspective_action id="com.genuitec.eclipse.web20.perspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="16384" id="topleft" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
-<fastViews>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-</fastViewBars>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
 <layout>
 <mainWindow>
 <info folder="true" part="cvslocation">
@@ -260,24 +237,34 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.7591973" ratioLeft="454" ratioRight="144" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<info folder="true" part="bottom" ratio="0.68" ratioLeft="374" ratioRight="176" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3d871ccf" ratio="0.4650133" ratioLeft="525" ratioRight="604" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="topleft" ratio="0.39868203" ratioLeft="242" ratioRight="365" relationship="4" relative="cvslocation">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="bottomleft" ratio="0.54859966" ratioLeft="333" ratioRight="274" relationship="4" relative="topleft">
@@ -377,33 +364,24 @@
 <view id="org.eclipse.debug.ui.ExpressionView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.dltk.ui.ScriptExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.6542811" ratioLeft="405" ratioRight="214" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.6542811" ratioLeft="405" ratioRight="214" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.javascript.debug.ui.scriptView" label="JavaScript Scripts Inspector"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
@@ -414,34 +392,27 @@
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
 <page content="org.eclipse.wst.xsl.jaxp.debug.ui.view1" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.23010753" ratioLeft="107" ratioRight="358" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.atf.mozilla.ide.ui.views.inspector" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.eclipse.atf.mozilla.ide.debug.ui.scriptview" label="LabelNotFound"/>
 <page content="org.eclipse.dltk.debug.ui.ScriptDisplayView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
@@ -454,63 +425,165 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/socket/src/com/yxm/socket/Server.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/socket/src/com/yxm/socket/Client.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/webserver-01/src/com/yxm/WebServer.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/socket/readme.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/webserver-01/src/readme.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/webserver-01/src/com/yxm/Processor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-001/src/com/yxm/junit/Math.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-001/test/com/yxm/junit/MathTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-002/src/com/yxm/junit/SystemService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/junit-002/test/com/yxm/junit/SystemServiceTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaServer-02/test/com/yxm/javaserver/util/LoggerTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaServer-02/test/com/yxm/javaserver/util/LoggerTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaServer-03/src/com/yxm/javaserver/core/BootStrap.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaServer-03/src/snippet/Snippet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/javaServer-04/config/server.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaServer-04/src/com/yxm/javaserver/core/ServerParse.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javaServer-04/src/com/yxm/javaserver/core/BootStrap.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.core.runtime.xml.source" path="/javaServer-04/conf/server.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/javaServer-04/conf/server.xml"/>
 </editors>
-<item historyLabel="Server.java" index="0">
+<item historyLabel="Math.java" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Server.java" index="0">
-<position info="not_deleted" x="520" y="0"/>
+<item historyLabel="Math.java" index="0">
+<position info="not_deleted" x="81" y="0"/>
 </item>
-<item historyLabel="Client.java" index="1">
-<position info="not_deleted" x="330" y="0"/>
+<item historyLabel="Math.java" index="0">
+<position info="not_deleted" x="161" y="0"/>
 </item>
-<item historyLabel="Server.java" index="0">
-<position info="not_deleted" x="912" y="0"/>
+<item historyLabel="Math.java" index="0">
+<position info="not_deleted" x="187" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="604" y="0"/>
+<item historyLabel="MathTest.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="readme.txt" index="3">
-<position info="not_deleted" x="199" y="60"/>
+<item historyLabel="MathTest.java" index="1">
+<position info="not_deleted" x="147" y="0"/>
 </item>
-<item historyLabel="readme.txt" index="4">
-<position info="not_deleted" x="251" y="60"/>
+<item historyLabel="MathTest.java" index="1">
+<position info="not_deleted" x="303" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="604" y="0"/>
+<item historyLabel="MathTest.java" index="1">
+<position info="not_deleted" x="183" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="589" y="16"/>
+<item historyLabel="MathTest.java" index="1">
+<position info="not_deleted" x="259" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="675" y="0"/>
+<item historyLabel="MathTest.java" index="1">
+<position info="not_deleted" x="253" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="589" y="0"/>
+<item historyLabel="MathTest.java" index="1">
+<position info="not_deleted" x="275" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="590" y="0"/>
+<item historyLabel="Math.java" index="0">
+<position info="not_deleted" x="187" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="607" y="0"/>
+<item historyLabel="SystemService.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="587" y="0"/>
+<item historyLabel="SystemService.java" index="2">
+<position info="not_deleted" x="109" y="0"/>
 </item>
-<item historyLabel="Processor.java" index="5">
-<position info="not_deleted" x="725" y="0"/>
+<item historyLabel="SystemService.java" index="2">
+<position info="not_deleted" x="145" y="0"/>
 </item>
-<item historyLabel="WebServer.java" index="2">
-<position info="not_deleted" x="447" y="0"/>
+<item historyLabel="SystemService.java" index="2">
+<position info="not_deleted" x="173" y="0"/>
 </item>
-<item active="true" historyLabel="Processor.java" index="5">
-<position info="not_deleted" x="725" y="0"/>
+<item historyLabel="SystemService.java" index="2">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="SystemServiceTest.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SystemServiceTest.java" index="3">
+<position info="not_deleted" x="255" y="0"/>
+</item>
+<item historyLabel="MathTest.java" index="1">
+<position info="not_deleted" x="185" y="5"/>
+</item>
+<item historyLabel="SystemServiceTest.java" index="3">
+<position/>
+</item>
+<item historyLabel="SystemServiceTest.java" index="3">
+<position info="not_deleted" x="328" y="0"/>
+</item>
+<item historyLabel="SystemServiceTest.java" index="3">
+<position info="not_deleted" x="356" y="0"/>
+</item>
+<item historyLabel="LoggerTest.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LoggerTest.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="LoggerTest.java" index="5">
+<position info="not_deleted" x="119" y="0"/>
+</item>
+<item historyLabel="LoggerTest.java" index="5">
+<position info="not_deleted" x="95" y="0"/>
+</item>
+<item historyLabel="BootStrap.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BootStrap.java" index="6">
+<position info="not_deleted" x="707" y="0"/>
+</item>
+<item historyLabel="BootStrap.java" index="6">
+<position info="not_deleted" x="674" y="0"/>
+</item>
+<item historyLabel="BootStrap.java" index="6">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="Snippet.java" index="7">
+<position info="not_deleted" x="338" y="0"/>
+</item>
+<item historyLabel="BootStrap.java" index="6">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="server.xml" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServerParse.java" index="9">
+<position info="not_deleted" x="271" y="0"/>
+</item>
+<item historyLabel="BootStrap.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ServerParse.java" index="9">
+<position info="not_deleted" x="271" y="0"/>
+</item>
+<item historyLabel="ServerParse.java" index="9">
+<position info="not_deleted" x="334" y="0"/>
+</item>
+<item historyLabel="ServerParse.java" index="9">
+<position/>
+</item>
+<item historyLabel="ServerParse.java" index="9">
+<position info="not_deleted" x="804" y="0"/>
+</item>
+<item historyLabel="ServerParse.java" index="9">
+<position info="not_deleted" x="606" y="0"/>
+</item>
+<item historyLabel="ServerParse.java" index="9">
+<position info="not_deleted" x="616" y="0"/>
+</item>
+<item historyLabel="ServerParse.java" index="9">
+<position info="not_deleted" x="724" y="0"/>
+</item>
+<item historyLabel="BootStrap.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="server.xml" index="11">
+<position/>
+</item>
+<item historyLabel="server.xml" index="12"/>
+<item historyLabel="ServerParse.java" index="9">
+<position info="not_deleted" x="724" y="0"/>
+</item>
+<item historyLabel="BootStrap.java" index="10">
+<position info="not_deleted" x="472" y="0"/>
+</item>
+<item historyLabel="server.xml" index="12"/>
+<item active="true" historyLabel="BootStrap.java" index="10">
+<position info="not_deleted" x="472" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -533,23 +606,50 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BootStrap.java" tooltip="javaServer-04/src/com/yxm/javaserver/core/BootStrap.java">
+<persistable path="/javaServer-04/src/com/yxm/javaserver/core/BootStrap.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ServerParse.java" tooltip="javaServer-04/src/com/yxm/javaserver/core/ServerParse.java">
+<persistable path="/javaServer-04/src/com/yxm/javaserver/core/ServerParse.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="server.xml" tooltip="javaServer-04/config/server.xml">
+<persistable path="/javaServer-04/config/server.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Snippet.java" tooltip="javaServer-03/src/snippet/Snippet.java">
+<persistable path="/javaServer-03/src/snippet/Snippet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BootStrap.java" tooltip="javaServer-03/src/com/yxm/javaserver/core/BootStrap.java">
+<persistable path="/javaServer-03/src/com/yxm/javaserver/core/BootStrap.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LoggerTest.java" tooltip="javaServer-02/test/com/yxm/javaserver/util/LoggerTest.java">
+<persistable path="/javaServer-02/test/com/yxm/javaserver/util/LoggerTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SystemServiceTest.java" tooltip="junit-002/test/com/yxm/junit/SystemServiceTest.java">
+<persistable path="/junit-002/test/com/yxm/junit/SystemServiceTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SystemService.java" tooltip="junit-002/src/com/yxm/junit/SystemService.java">
+<persistable path="/junit-002/src/com/yxm/junit/SystemService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MathTest.java" tooltip="junit-001/test/com/yxm/junit/MathTest.java">
+<persistable path="/junit-001/test/com/yxm/junit/MathTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Math.java" tooltip="junit-001/src/com/yxm/junit/Math.java">
+<persistable path="/junit-001/src/com/yxm/junit/Math.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DateUtil.java" tooltip="javaServer-01/src/com/yxm/javaserver/util/DateUtil.java">
+<persistable path="/javaServer-01/src/com/yxm/javaserver/util/DateUtil.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Logger.java" tooltip="javaServer-01/src/com/yxm/javaserver/util/Logger.java">
+<persistable path="/javaServer-01/src/com/yxm/javaserver/util/Logger.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BootStrap.java" tooltip="javaServer-01/src/com/yxm/javaserver/core/BootStrap.java">
+<persistable path="/javaServer-01/src/com/yxm/javaserver/core/BootStrap.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Processor.java" tooltip="webserver-01/src/com/yxm/Processor.java">
 <persistable path="/webserver-01/src/com/yxm/Processor.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="readme.txt" tooltip="webserver-01/src/readme.txt">
 <persistable path="/webserver-01/src/readme.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="readme.txt" tooltip="socket/readme.txt">
-<persistable path="/socket/readme.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WebServer.java" tooltip="webserver-01/src/com/yxm/WebServer.java">
-<persistable path="/webserver-01/src/com/yxm/WebServer.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" tooltip="socket/src/com/yxm/socket/Client.java">
-<persistable path="/socket/src/com/yxm/socket/Client.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Server.java" tooltip="socket/src/com/yxm/socket/Server.java">
-<persistable path="/socket/src/com/yxm/socket/Server.java"/>
 </file>
 </mruList>
 </workbench>

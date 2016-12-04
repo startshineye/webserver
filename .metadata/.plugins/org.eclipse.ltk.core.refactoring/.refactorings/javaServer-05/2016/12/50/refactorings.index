@@ -1,0 +1,5 @@
+1480824932728	Extract local variable 'clientServer'
+1480824961957	Extract local variable 'in'
+1480825005989	Extract local variable 'read'
+1480825030538	Extract local variable 'read'
+1480825065462	Extract local variable 'string'
