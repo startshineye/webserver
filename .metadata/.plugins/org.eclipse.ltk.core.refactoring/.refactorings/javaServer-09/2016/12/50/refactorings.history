@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;loginServlet&apos; from expression &apos;new LoginServlet()&apos;&#x0D;&#x0A;- Original project: &apos;javaServer-09&apos;&#x0D;&#x0A;- Variable name: &apos;loginServlet&apos;&#x0D;&#x0A;- Destination method: &apos;com.yxm.javaserver.core.HandlerRequest.run()&apos;&#x0D;&#x0A;- Variable expression: &apos;new LoginServlet()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;loginServlet&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.yxm.javaserver.core{HandlerRequest.java" name="loginServlet" replace="true" selection="1226 0" stamp="1480861259454" version="1.0"/>
+</session>
