@@ -1,0 +1,24 @@
+package com.yxm.javaserver.core;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * 解析每个WebApp的web.xml
+ * @author yxm
+ *
+ */
+public class WebParse {
+     public static Map<String,Map<String,String>> servletMaps=new HashMap<String,Map<String,String>>();
+      
+     public void parse(String[] webAppNames){
+    	 for(String webAppName:webAppNames){
+    		 Map<String,String> servletMap = parse(webAppName);
+    		 servletMaps.put(webAppName, servletMap);
+    	 }
+     }
+     
+     private static Map<String,String> parse(String webAppName){
+    	 
+     }
+}

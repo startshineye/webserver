@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+   <servlet>
+     <servlet-name>loginServlet</servlet-name>
+     <servlet-class>org.yxm.oa.servlet.LoginServlet</servlet-class>
+   </servlet>
+</web-app>
