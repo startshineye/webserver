@@ -1,0 +1,9 @@
+package javax.servlet;
+/**
+ * Servlet规范核心接口
+ * @author yxm
+ *
+ */
+public interface Servlet {
+
+}

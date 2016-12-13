@@ -1,0 +1,9 @@
+package javax.servlet;
+/**
+ * 
+ * @author yxm
+ *
+ */
+public interface Servlet {
+
+}

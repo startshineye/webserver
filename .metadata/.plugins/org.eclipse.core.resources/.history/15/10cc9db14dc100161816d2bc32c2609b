@@ -51,7 +51,6 @@ public class HandlerRequest implements Runnable{
 			   Object obj = c.newInstance();//创建servlet对象
 			   //调用servlet对象方法，怎么调用呢？我们不知道service对象中有什么方法，怎么办？
 			   Servlet servlet = (Servlet)obj;
-			   servlet.service();
 		   }
 		   out.flush();//必须要注意刷新
 		 } catch (Exception e) {

@@ -7,3 +7,7 @@
 1481642498486	Extract local variable 'servletNames'
 1481642576202	Extract local variable 'servletPath'
 1481642616462	Extract local variable 'string'
+1481643907008	Extract local variable 'servletMap'
+1481644081649	Extract local variable 'servletClassName'
+1481644110841	Extract local variable 'c'
+1481644154139	Extract local variable 'obj'
