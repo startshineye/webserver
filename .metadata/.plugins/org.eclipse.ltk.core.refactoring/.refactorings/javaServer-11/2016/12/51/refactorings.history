@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;stringBuilder&apos; from expression &apos;new StringBuilder()&apos;&#x0D;&#x0A;- Original project: &apos;javaServer-11&apos;&#x0D;&#x0A;- Variable name: &apos;stringBuilder&apos;&#x0D;&#x0A;- Destination method: &apos;com.yxm.javaserver.core.HandlerRequest.run()&apos;&#x0D;&#x0A;- Variable expression: &apos;new StringBuilder()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;stringBuilder&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.yxm.javaserver.core{HandlerRequest.java" name="stringBuilder" replace="true" selection="1978 0" stamp="1481646361193" version="1.0"/>
+</session>
