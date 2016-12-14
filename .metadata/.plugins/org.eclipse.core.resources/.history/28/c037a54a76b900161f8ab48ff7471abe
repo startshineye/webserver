@@ -1,7 +1,0 @@
-package com.yxm.javaserver.core;
-/*
- * 服务器启动阶段解析server.xml
- */
-public class ServerParse {
-
-}

@@ -1,9 +1,0 @@
-package com.yxm.javaserver.core;
-/**
- * 解析每个WebApp的web.xml
- * @author yxm
- *
- */
-public class WebParse {
-      new HashMap<String,Map<String,String>>();
-}

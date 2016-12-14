@@ -1,9 +1,0 @@
-package org.yxm.oa.servlet;
-/**
- * 处理登录的小java程序
- * @author webapp开发人员
- *
- */
-public class LoginServlet {
-
-}
