@@ -1,0 +1,22 @@
+package com.yxm.javaserver.core;
+
+import java.io.PrintWriter;
+
+/**
+ * 负责响应的对象
+ * 
+ * @author yxm
+ * 
+ */
+public class ResponseObject {
+	private PrintWriter out;
+
+	public PrintWriter getOut() {
+		return out;
+	}
+
+	public void setOut(PrintWriter out) {
+		this.out = out;
+	}
+
+}

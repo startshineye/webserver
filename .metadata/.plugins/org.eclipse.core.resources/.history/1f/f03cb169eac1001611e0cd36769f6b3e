@@ -1,0 +1,9 @@
+package com.yxm.javaserver.core;
+/**
+ * 负责响应的对象
+ * @author yxm
+ *
+ */
+public class ResponseObject {
+
+}

@@ -1,0 +1,17 @@
+package javax.servlet;
+
+import java.io.PrintWriter;
+
+import com.yxm.javaserver.core.ResponseObject;
+
+/**
+ * Servlet规范核心接口
+ * @author yxm
+ *
+ */
+public interface Servlet {
+	/**
+	 * 处理请求的核心方法
+	 */
+   void service(ResponseObject responseObject);
+}

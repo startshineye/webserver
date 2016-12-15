@@ -1,0 +1,9 @@
+package javax.servlet;
+/**
+ * 负责响应的接口
+ * @author yxm
+ *
+ */
+public interface ServletResponse {
+
+}
