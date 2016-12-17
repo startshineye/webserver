@@ -14,3 +14,6 @@
 1481991353582	Extract local variable 'parameters'
 1481991377106	Extract local variable 'stringBuild'
 1481991489519	Extract local variable 'out'
+1481993351736	Move compilation unit
+1481993428305	Extract local variable 'servlet'
+1481993473870	Extract local variable 'c'

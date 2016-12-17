@@ -1,0 +1,9 @@
+package com.yxm.javaserver.core;
+/**
+ * Servlet对象缓存池
+ * @author yxm
+ *
+ */
+public class ServletCache {
+
+}

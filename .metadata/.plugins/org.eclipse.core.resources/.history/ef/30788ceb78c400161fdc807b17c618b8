@@ -14,7 +14,6 @@ import javax.servlet.Servlet;
 import org.yxm.oa.servlet.LoginServlet;
 
 import com.yxm.javaserver.util.Logger;
-import com.yxm.javaserver.util.ServletCache;
 
 public class HandlerRequest implements Runnable{
    private Socket clientSocket;
@@ -54,13 +53,7 @@ public class HandlerRequest implements Runnable{
 				   //调用servlet对象方法，怎么调用呢？我们不知道service对象中有什么方法，怎么办？
 				   Servlet servlet = (Servlet)obj;*/
 				   
-				   Servlet servlet = ServletCache.get(urlPattern);
-				   if(servlet==null){
-					   Class c = Class.forName(servletClassName);
-					   servlet =  (Servlet)c.newInstance();
-					   ServletCache.put(urlPattern, servlet);
-				   }
-				   Logger.log("获取到的servlet对象为："+servlet);
+				   
 				   out.append("HTTP/1.1 404 OK\n");
 				   out.append("Content-Type: text/html;charset=UTF-8\n\n");
 				   RequestObject requestObject = new RequestObject(requestURI);

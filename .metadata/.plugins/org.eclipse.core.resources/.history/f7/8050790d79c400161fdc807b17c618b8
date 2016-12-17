@@ -55,12 +55,6 @@ public class HandlerRequest implements Runnable{
 				   Servlet servlet = (Servlet)obj;*/
 				   
 				   Servlet servlet = ServletCache.get(urlPattern);
-				   if(servlet==null){
-					   Class c = Class.forName(servletClassName);
-					   servlet =  (Servlet)c.newInstance();
-					   ServletCache.put(urlPattern, servlet);
-				   }
-				   Logger.log("获取到的servlet对象为："+servlet);
 				   out.append("HTTP/1.1 404 OK\n");
 				   out.append("Content-Type: text/html;charset=UTF-8\n\n");
 				   RequestObject requestObject = new RequestObject(requestURI);
