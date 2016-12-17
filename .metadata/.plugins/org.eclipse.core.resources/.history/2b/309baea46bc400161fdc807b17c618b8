@@ -1,0 +1,12 @@
+package com.yxm.javaserver.core;
+/**
+ * RequestObject测试类
+ * @author yxm
+ *
+ */
+public class RequestObjectTest {
+   
+	public void testGetParameter(){
+		RequestObject request1 = new RequestObject("/oa/save");
+	}
+}

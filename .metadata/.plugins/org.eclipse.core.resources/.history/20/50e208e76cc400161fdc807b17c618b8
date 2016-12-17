@@ -1,0 +1,103 @@
+package com.yxm.javaserver.core;
+
+import org.junit.Test;
+
+/**
+ * RequestObject测试类
+ * @author yxm
+ *
+ */
+public class RequestObjectTest {
+   
+	@Test
+	public void testGetParameter(){
+		RequestObject request1 = new RequestObject("/oa/save");
+		System.out.println(request1.getParameter("username"));
+		RequestObject request2 = new RequestObject("/oa/save?");
+		System.out.println(request2.getParameter("username"));
+		RequestObject request3 = new RequestObject("/oa/save?username=");
+		System.out.println(request3.getParameter("username"));
+		RequestObject request4 = new RequestObject("/oa/save?username=zs&interest=sport&interest=food");
+		System.out.println(request4.getParameter("username"));
+		System.out.println(request4.getParameter("interest"));
+		
+	}
+	
+	public void testGetParameters(){
+		RequestObject request = new RequestObject("/oa/save?username=zs&interest=sport&interest=food");
+		request.getParameter("interest");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

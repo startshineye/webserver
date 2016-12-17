@@ -1,0 +1,15 @@
+package javax.servlet;
+/**
+ * 负责封装请求协议
+ * @author 
+ *
+ */
+public interface ServletRequest {
+	 public String getParameter(String name){
+		   String[] parameterVaues = paramMap.get(name);
+		   return (parameterVaues != null && parameterVaues.length !=0)?parameterVaues[0]: null;
+	   }
+	   public String[] getParameters(String name){
+		   return paramMap.get(name);
+	   } 
+}

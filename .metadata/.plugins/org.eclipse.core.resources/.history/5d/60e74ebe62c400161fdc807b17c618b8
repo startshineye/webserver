@@ -1,0 +1,26 @@
+package com.yxm.javaserver.core;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * 负责封装请求协议的request对象
+ * @author yxm
+ *
+ */
+public class RequestObject {
+   private  Map<String,String[]> paramMap = new HashMap<String,String[]>();
+   
+   private RequestObject(String requestURIAndData){
+	    //requestURIAndData可能是：
+	    // /oa/save
+	    // /oa/save?username=zs&sex=m
+	   //  /oa/save?username=zs&sex=m&interest=sport
+	   //  /oa/save?username=zs&sex=m&interest=sport$interest=music
+	   
+	   //解析uri和data
+	   if(requestURIAndData.contains("?")){
+		   
+	   }
+   }
+}

@@ -1,0 +1,5 @@
+package com.yxm.javaserver.core;
+
+public class RequestObject {
+
+}

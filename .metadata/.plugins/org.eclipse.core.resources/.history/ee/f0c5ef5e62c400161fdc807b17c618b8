@@ -1,0 +1,13 @@
+package com.yxm.javaserver.core;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * 负责封装请求协议的request对象
+ * @author yxm
+ *
+ */
+public class RequestObject {
+   private  Map<String,String[]> paramMap = new HashMap<String,String[]>();
+}

@@ -1,0 +1,10 @@
+package javax.servlet;
+/**
+ * 负责封装请求协议
+ * @author 
+ *
+ */
+public interface ServletRequest {
+	 public String getParameter(String name);
+	   public String[] getParameters(String name);
+}
