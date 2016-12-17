@@ -17,6 +17,6 @@
    
    <servlet-mapping>
       <servlet-name>save</servlet-name>
-      <url-pattern>/user/save</url-pattern>
+      <url-pattern>user/save</url-pattern>
    </servlet-mapping>
 </web-app>

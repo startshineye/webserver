@@ -3,8 +3,6 @@ package com.yxm.javaserver.core;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.ServletRequest;
-
 /**
  * 负责封装请求协议的request对象
  * @author yxm

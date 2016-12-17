@@ -1,6 +1,7 @@
 package javax.servlet;
 
 
+import com.yxm.javaserver.core.RequestObject;
 
 /**
  * Servlet规范核心接口
@@ -11,5 +12,5 @@ public interface Servlet {
 	/**
 	 * 处理请求的核心方法
 	 */
-   void service(ServletRequest request,ServletResponse response);
+   void service(RequestObject requestObject,ServletResponse response);
 }

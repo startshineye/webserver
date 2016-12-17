@@ -12,11 +12,11 @@
    
    <servlet>
       <servlet-name>save</servlet-name>
-      <servlet-class>org.yxm.oa.servlet.SaveServlet</servlet-class>
+      <servlet-class>org.yxm.oa.servlet.LoginServlet</servlet-class>
    </servlet>
    
    <servlet-mapping>
       <servlet-name>save</servlet-name>
-      <url-pattern>/user/save</url-pattern>
+      <url-pattern></url-pattern>
    </servlet-mapping>
 </web-app>

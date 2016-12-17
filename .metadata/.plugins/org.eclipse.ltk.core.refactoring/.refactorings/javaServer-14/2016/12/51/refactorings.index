@@ -9,3 +9,8 @@
 1481988289147	Extract local variable 'parameters'
 1481988528993	Extract local variable 'parameter'
 1481989203284	Extract local variable 'requestObject'
+1481991300701	Extract local variable 'username'
+1481991321111	Extract local variable 'sex'
+1481991353582	Extract local variable 'parameters'
+1481991377106	Extract local variable 'stringBuild'
+1481991489519	Extract local variable 'out'

@@ -9,14 +9,4 @@
       <servlet-name>loginServlet</servlet-name>
       <url-pattern>/login</url-pattern>
    </servlet-mapping>
-   
-   <servlet>
-      <servlet-name>save</servlet-name>
-      <servlet-class>org.yxm.oa.servlet.SaveServlet</servlet-class>
-   </servlet>
-   
-   <servlet-mapping>
-      <servlet-name>save</servlet-name>
-      <url-pattern>/user/save</url-pattern>
-   </servlet-mapping>
 </web-app>
