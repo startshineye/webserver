@@ -1,0 +1,69 @@
+package com.yxm.javaserver.core;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.Servlet;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+import com.yxm.javaserver.util.ServletCache;
+/**
+ * 请求转发器
+ * @author yxm
+ *
+ */
+public class RequestDispatcherImpl implements RequestDispatcher {
+   private String uri;
+   
+   public RequestDispatcherImpl(String uri){
+	   this.uri=uri;
+   }
+	@Override
+	public void forward(ServletRequest requesst, ServletResponse response) {
+      if(uri.endsWith(".html") || uri.endsWith(".htm")){
+    	  String htmlPath = uri.substring(1);
+    	  System.out.println(htmlPath);
+    	  BufferedReader br=null;
+    	  try {
+    		  br=new BufferedReader(new FileReader(htmlPath));
+		      String temp = null;
+		      while((temp = br.readLine())!=null){
+		    	  response.getWriter().print(temp);
+		      }
+    	  } catch (Exception e) {
+    		  e.printStackTrace();
+		  }finally{
+			  if(br!=null){//br关闭流
+				  try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			  }
+		  }
+      }else{
+    	  String s1 = uri.substring(1);
+    	  System.out.println(s1);
+    	  String webappname="";
+    	  if(s1.contains("/")){
+    		  webappname=s1.split("/")[0];
+    	  }else{
+    		  webappname=s1;
+    	  }
+    	  String servletPath = s1.substring(webappname.length());
+    	  if(servletPath.length()>0){
+    		  String servletName = WebParse.servletMaps.get(webappname).get(servletPath);
+    	      Servlet servlet = ServletCache.get(servletName);
+    	      if(servlet == null){
+    	    	  
+    	      }
+    	  }else{
+    		  
+    	  }
+      }
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.yxm.javaserver.core;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+/**
+ * 请求转发器
+ * @author yxm
+ *
+ */
+public class RequestDispatcherImpl implements RequestDispatcher {
+   private String uri;
+   
+   public RequestDispatcherImpl(String uri){
+	   this.uri=uri;
+   }
+	@Override
+	public void forward(ServletRequest requesst, ServletResponse response) {
+      if(uri.endsWith(".html") || uri.endsWith(".htm")){
+    	  String htmlPath = uri.substring(1);
+    	  System.out.println(htmlPath);
+    	  BufferedReader br=null;
+    	  try {
+    		  br=new BufferedReader(new FileReader(htmlPath));
+		} catch (Exception e) {
+		}
+      }
+	}
+
+}

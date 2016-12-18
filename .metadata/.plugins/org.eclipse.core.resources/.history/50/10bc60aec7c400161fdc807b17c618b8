@@ -1,0 +1,9 @@
+package javax.servlet;
+/**
+ * 请求转发器
+ * @author yxm
+ *
+ */
+public interface RequestDispatcher {
+
+}

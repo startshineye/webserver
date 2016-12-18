@@ -1,0 +1,23 @@
+package com.yxm.javaserver.core;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+/**
+ * 请求转发器
+ * @author yxm
+ *
+ */
+public class RequestDispatcherImpl implements RequestDispatcher {
+   private String uri;
+   
+   public RequestDispatcherImpl(String uri){
+	   this.uri=uri;
+   }
+	@Override
+	public void forward(ServletRequest requesst, ServletResponse response) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
